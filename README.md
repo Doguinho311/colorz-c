@@ -8,6 +8,8 @@ Then applies the k-means clusttering algorithm until it does reach the target po
 Finally, it sorts the colors based on luminance, according to the human eye perception of color, and prints to the terminal.
 
 # Usage
+Compile using "gcc -o main colorz-c.c -lm".
+
 ./colorz-c <path_to_image>
 
 # Example
