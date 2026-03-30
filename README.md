@@ -1,7 +1,7 @@
 # colorz-c
 A k-means algorithm to create palletes, made for fun and for learning C using the library stb_image for image processing: https://github.com/nothings/stb/tree/master.
 
-The algorithms creates a random seed on the image and 17 more other cluster points based on the most "distance" on RGB-spectrum between this point and the previous ones while ignoring really bright or really dark points.
+The algorithms creates a random seed on the image and 17 more other cluster points based on the furthest color on RGB-spectrum between this point and all the previous ones while ignoring really bright or really dark points.
 
 Then applies the k-means clusttering algorithm until it does reach the target point within a 1e-18 margin.
 
