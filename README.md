@@ -10,5 +10,14 @@ Finally, it sorts the colors based on luminance, according to the human eye perc
 # Usage
 ./colorz-c <path_to_image>
 
+# Example
+<img width="1920" height="1080" alt="2b" src="https://github.com/user-attachments/assets/7e14a131-93fd-4e57-9efc-20b0bdc72bd6" />
+
+Pallete generated:
+<img width="1598" height="383" alt="image" src="https://github.com/user-attachments/assets/9a846bc4-d004-4943-8c2a-55b10235b463" />
+
+
+- Source: https://pt.wallpapers.com/foto/imagens-2b-1920-x-1080-0dtdxd6kpfxnd5sb.html
+
 # To-do
 Ready the output to be used for hyprland ricing.
