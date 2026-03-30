@@ -1,7 +1,7 @@
 # colorz-c
 A k-means algorithm to create palletes, made for fun and for learning C.
 
-The algorithms creates a random seed on the image and 17, for now, other cluster points based on the most "distance" on RGB-spectrum between this point and the previous ones.
+The algorithms creates a random seed on the image and 17 more other cluster points based on the most "distance" on RGB-spectrum between this point and the previous ones while ignoring really bright or really dark points.
 
 Then applies the k-means clusttering algorithm until it does reach the target point within a 1e-18 margin.
 
@@ -9,3 +9,6 @@ Finally, it sorts the colors based on luminance, according to the human eye perc
 
 # Usage
 ./colorz-c <path_to_image>
+
+# To-do
+Ready the output to be used for hyprland ricing.
